@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_page_sections_authors",
+  "info": {
+    "name": "sectionsAuthors",
+    "icon": "user-astronaut"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "collection": "author"
+    }
+  }
+}

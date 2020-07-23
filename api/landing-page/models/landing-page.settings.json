@@ -17,6 +17,58 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "sectionTech": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concepts"
+    },
+    "sectionModules": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "sectionAgenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-agenda"
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
+    },
+    "sectionsAuthors": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.sections-authors",
+      "required": true
+    },
+    "sectionReviews": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
+    },
+    "sectionFaq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
     }
   }
 }
