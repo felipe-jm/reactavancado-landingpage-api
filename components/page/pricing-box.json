@@ -30,6 +30,9 @@
       "repeatable": false,
       "component": "page.button",
       "required": true
+    },
+    "discountPrice": {
+      "type": "integer"
     }
   }
 }
